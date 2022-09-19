@@ -1,11 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 1fefab6cd76b336393e6aea32c1e90a5fbc2a93b
 int _strlen(char *s);
 int _putchar(char c);
 void print_rev(char *s);
