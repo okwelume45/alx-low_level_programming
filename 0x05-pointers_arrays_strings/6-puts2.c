@@ -5,16 +5,16 @@
  *                                                                                                                                                            
  * Return: void which means our answer is correct                                                                                                             
  */                                                                                                                                                           
-void puts2(char *s)                                                                                                                                           
-{                                                                                                                                                             
-        int i = 0;                                                                                                                                            
-                                                                                                                                                              
-        while (*(str + i) != '\0')                                                                                                                            
-        {                                                                                                                                                     
-                                                                                                                                                              
-                if (i % 2 == 0)                                                                                                                               
-                        putchar(*(str + i));                                                                                                                  
-                i++;                                                                                                                                          
-        }                                                                                                                                                     
-        _putchar(10);                                                                                                                                         
-}              
+void puts2(char *s)
+{
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
+	{
+		if (a % 2 == 0)
+		{
+			_putchar(s[a]);
+		}
+	}
+	_putchar('\n');
+}     
