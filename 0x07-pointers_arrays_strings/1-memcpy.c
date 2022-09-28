@@ -7,7 +7,10 @@
  *
  * Return: pointer to beginning of memory area dest
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a8d6d50db9da85030842f7dd90d9edef27e10e1
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i = 0;

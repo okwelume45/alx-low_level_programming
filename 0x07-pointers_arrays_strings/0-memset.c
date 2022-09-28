@@ -12,6 +12,10 @@ char *_memset(char *s, char b, unsigned int n)
 	unsigned int i = 0;
 	char *start = s;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a8d6d50db9da85030842f7dd90d9edef27e10e1
 	while (i < n)
 	{
 		*s++ = b;
